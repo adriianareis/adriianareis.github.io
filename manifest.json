@@ -7,6 +7,23 @@
     "display": "standalone",
     "background_color": "#242424",
     "theme_color": "#242424",
-    "start_url": "/",
-    "scope": "/"
+    "start_url": "https://adriianareis.github.io/",
+    "scope": "/",
+    "icons": [
+    {
+      "src": "https://adriianareis.github.io/res/icon48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "https://adriianareis.github.io/res/con96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "https://adriianareis.github.io/res/icon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
 }
