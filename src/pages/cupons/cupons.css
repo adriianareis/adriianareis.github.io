@@ -1,0 +1,29 @@
+div.overlay {
+	transition: all linear 0.5s;
+}
+
+div.overlay[data-open="true"] {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	background-color: black;
+	opacity: 0.75;
+	z-index: 998;
+}
+
+img {
+    transition: all linear 0.5s;
+}
+
+img[data-open="true"] {
+	display: block;
+	text-align: center;
+	z-index: 999;
+	width: 90%;
+	top: 15%;
+	left: 5%;
+	position: fixed;
+}
